@@ -13,7 +13,7 @@ This project implements a binary classifier to identify the digit "2" within the
 The goal of this project is to train a model that can accurately distinguish between the digit **"2"** and all other digits in the MNIST dataset. This is achieved by transforming the multi-class MNIST problem into a **binary classification task**.
 
 <p align="center">
-	<img src="assets/ClassifiedDigit.png" alt="ClassifiedDigit" style="width:100%; max-width:800px;" />
+	<img src="assets/ClassifiedDigit.PNG" alt="ClassifiedDigit" style="width:100%; max-width:800px;" />
 </p>
 
 ---
@@ -69,7 +69,7 @@ The script performs the following steps:
 The learning curve indicates that the model is performing well, with both training and cross-validation scores converging. A slight gap suggests potential improvement with more data or regularization.
 
 <p align="center">
-	<img src="assets/ModelLearningCurve.png" alt="ModelLearningCurve" style="width:100%; max-width:800px;" />
+	<img src="assets/ModelLearningCurve.PNG" alt="ModelLearningCurve" style="width:100%; max-width:800px;" />
 </p>
 
 ---
@@ -79,7 +79,7 @@ The learning curve indicates that the model is performing well, with both traini
 The classification report shows excellent performance, particularly for the **"Not 2"** class. The **"Is 2"** class shows good precision but slightly lower recall, suggesting room for improvement.
 
 <p align="center">
-	<img src="assets/ClassReport.png" alt="ClassReport" style="width:100%; max-width:800px;" />
+	<img src="assets/ClassReport.PNG" alt="ClassReport" style="width:100%; max-width:800px;" />
 </p>
 
 ---
@@ -89,7 +89,7 @@ The classification report shows excellent performance, particularly for the **"N
 The confusion matrix reveals a **high true negative rate** and a **moderate false negative rate**, consistent with the classification report.
 
 <p align="center">
-	<img src="assets/CFmatrix.png" alt="CFmatrix" style="width:100%; max-width:800px;" />
+	<img src="assets/CFmatrix.PNG" alt="CFmatrix" style="width:100%; max-width:800px;" />
 </p>
 
 ---
@@ -99,7 +99,7 @@ The confusion matrix reveals a **high true negative rate** and a **moderate fals
 The precision-recall curve shows an **AUC of 0.89**, indicating a strong balance between precision and recall.
 
 <p align="center">
-	<img src="assets/PRcurve.png" alt="PRcurve" style="width:100%; max-width:800px;" />
+	<img src="assets/PRcurve.PNG" alt="PRcurve" style="width:100%; max-width:800px;" />
 </p>
 
 ---
@@ -109,7 +109,7 @@ The precision-recall curve shows an **AUC of 0.89**, indicating a strong balance
 The ROC curve shows an **AUC of 0.97**, demonstrating excellent discrimination ability between the digit "2" and all other digits.
 
 <p align="center">
-	<img src="assets/ROCcurve.png" alt="ROCcurve" style="width:100%; max-width:800px;" />
+	<img src="assets/ROCcurve.PNG" alt="ROCcurve" style="width:100%; max-width:800px;" />
 </p>
 
 ---
